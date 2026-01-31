@@ -14,10 +14,42 @@ public class Category {
     @Column(nullable = false, unique = true)
     private String name;
 
-    // private String description;
+    private String description;
 
     @OneToMany(mappedBy = "category")
     private List<CategoryProduct> categoryProducts;
 
-    // getters & setters
+    // ===== Getters & Setters =====
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public List<CategoryProduct> getCategoryProducts() {
+        return categoryProducts;
+    }
+
+    public void setCategoryProducts(List<CategoryProduct> categoryProducts) {
+        this.categoryProducts = categoryProducts;
+    }
 }
