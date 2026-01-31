@@ -1,13 +1,13 @@
-package com.ecommerce.restapi;
+package com.ecommerceapirest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommercerestapiApplication {
+public class EcommerceapirestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EcommercerestapiApplication.class, args);
+		SpringApplication.run(EcommerceapirestApplication.class, args);
 	}
 
 }

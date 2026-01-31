@@ -1,10 +1,10 @@
-package com.ecommerce.restapi;
+package com.ecommerceapirest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EcommercerestapiApplicationTests {
+class EcommerceapirestApplicationTests {
 
 	@Test
 	void contextLoads() {
