@@ -1,0 +1,23 @@
+package com.ecommerceapirest.dtos.categoryProduct;
+
+public class CategoryProductRequestDTO {
+
+    private Long categoryId;
+    private Long productId;
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public Long getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+}
