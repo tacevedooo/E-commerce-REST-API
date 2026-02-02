@@ -52,7 +52,6 @@ public class UserServiceImpl implements UserService {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
-        // update fields
         user.setUsername(dto.getUsername());
         user.setEmail(dto.getEmail());
         user.setPassword(dto.getPassword());
